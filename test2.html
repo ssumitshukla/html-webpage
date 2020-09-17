@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>My first web page</title>
+<style>
+body {
+  background-image: url("zebra.jpg");
+  background-size: cover;
+}
+h1 { 
+	text-align: center;
+	}
+form {
+text-align :center;
+}
+input {
+width: 50%;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  width: 10%
+}
+select {
+width: 50%;
+}
+
+label {
+  font-size: 20px;
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}​
+</style>
+<body>
+<h1>Session with Sumit</h1>
+
+<form method = "POST" action = "">
+
+<label for = "fname">First Name</label>
+<input type = 'text' id = 'fname', name = 'fn', required = 'required', placeholder = 'Write your name...' >
+
+<br></br>
+
+<label for = "gender">Gender</label>
+<select id="gender" name="Gender">
+      <option value="1">Male</option>
+      <option value="0">Female</option>
+      <option value="-1">Other</option>
+</select>
+
+<br></br>
+
+<label></label>
+<input id="submit" type="submit" value="I Agree" />
+
+</body>
+</html>
